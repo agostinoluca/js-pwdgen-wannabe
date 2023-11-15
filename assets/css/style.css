@@ -1,0 +1,22 @@
+.welcome {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+#password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 20px;
+    border: 3px dotted grey;
+}
