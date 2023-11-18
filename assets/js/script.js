@@ -24,10 +24,10 @@ const FavoriteColor = prompt(`What's your favourite colour?`)
 const UserName = document.getElementById('username')
 
 // welcome message + innerhtml with result name + last name
-UserName.innerHTML = `Ciao ${UserFirstName+` `+UserLastName}, benvenuto nel tuo generatore di password.`
+UserName.innerHTML = `Ciao ${UserFirstName} ${UserLastName}, benvenuto nel tuo generatore di password.`
 
 // get element by id password
 const password = document.getElementById(`password`)
 
 // create password
-password.innerHTML = `${UserFirstName+UserLastName+FavoriteColor+23}`
+password.innerHTML = `${UserFirstName}${UserLastName}${FavoriteColor}23`
